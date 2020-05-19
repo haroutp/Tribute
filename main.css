@@ -1,20 +1,58 @@
-html { 
-    background: url(images/Bandana.svg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+* {
+  padding: 0;
+  margin: 0;
+}
+
 
 body {
     text-align: center;
-    /* background-image: url("images/Bandana.svg");
-    background-color: #000;
-    background-size: cover;
-    background-repeat:no-repeat; */
     color: #fff;
+    background-color: #b0abab;
+    font-size: 1rem;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+header {
+  text-align: right;
+  padding-right: 50px;
+  height: 50%;
+  background: url(images/Bandana.svg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  padding: 15px;
+  font-size: 3rem;
+}
+
+
+#everything-else{
+  padding-top: 50px;
+  background: url(images/five-clover.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+#img-caption {
+  font-size: 1.2rem;
 }
 
 img {
-  width: 30%;
+  border-radius: 18px;
+  width: 40%;
 }
