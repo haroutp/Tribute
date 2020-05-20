@@ -5,25 +5,27 @@
 
 
 body {
+
     text-align: center;
     color: #fff;
-    background-color: #b0abab;
+    background-color: #d1c0be;
     font-size: 1rem;
 }
 
 #main {
   width: 100vw;
   height: 100vh;
-
 }
 
 header {
   text-align: right;
   padding-right: 50px;
-  height: 50%;
-  background: url(images/Bandana.svg) center;
+  height: 30vh;
+  background: url(images/Bandana.svg) center, #bc3b2a;
+  background-blend-mode: difference;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 8px;
 }
 
 h1{
@@ -33,11 +35,21 @@ h1{
 
 
 #everything-else{
-  padding-top: 50px;
-  background: url(images/five-clover.jpg);
+  padding-top: 80px;
+  background: url(images/five-clover.jpg) center center, #bc3b2a;
+  background-blend-mode: multiply;
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  padding-bottom: 100vh;
+}
+#img-div {
+  height: 20%;
+}
+
+#detail {
+  height: 80%;
+  margin-top: 120px;
 }
 
 span {
@@ -55,4 +67,8 @@ p{
 img {
   border-radius: 18px;
   width: 40%;
+}
+
+ul {
+
 }
